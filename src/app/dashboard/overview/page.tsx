@@ -326,6 +326,6 @@ function processPayments(pagos: Pago[]) {
   return monthNames.map((name, index) => ({
     name,
     inscripciones: pagosPorMes[index]?.inscripciones || 0,
-    colegiaturas: pagosPorMes[index]?.colegiaturas || 0
-  }));
+    colegiaturas: pagosPorMes[index]?.colegiaturas || 0
+  }));
 }
